@@ -136,7 +136,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-django_heroku.settings(locals())
+django_heroku.settings(locals(), secret_key=False)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
