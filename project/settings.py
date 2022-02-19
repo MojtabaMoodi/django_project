@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'homeschool.users',
+    'homeschool.schools'
 ]
 
 MIDDLEWARE = [
