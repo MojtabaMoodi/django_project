@@ -10,6 +10,7 @@ django-heroku = "*"
 django-environ = "*"
 django-debug-toolbar = "*"
 django-allauth = "*"
+factory-boy = "*"
 
 [dev-packages]
 black = "*"
